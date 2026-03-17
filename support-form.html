@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Support form</title> 
+</head>
+<body>
 
+ <header>
+    <h1>Support form</h1>
+ </header>   
+
+<main>
+    <section>
+        <h2>Browse as Guest</h2>
+        <p>You can browse available support and submit a simple request without an account.</p>
+        <form action="support-confirmation.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="support-type">Type of support needed:</label>
+            <select id="support-type" name="support-type" required>
+                <option value="">Select an option</option>
+                <option value="financial">Financial support</option>
+                <option value="academic">Academic support</option>
+                <option value="mental-health">Mental health & wellbeing</option>
+                <option value="caring-responsibilities">Caring responsibilities</option>
+                <option value="external-organisations">External organisations</option>
+            </select><br><br>
+
+            <label for="details">Additional details:</label><br>
+            <textarea id="details" name="details" rows="5" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
