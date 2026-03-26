@@ -23,6 +23,13 @@
         <h2>Register</h2>
 
         <form id="register-form" novalidate>
+            <label for="identify-status">Are you a student carer? </label>
+            <input type="radio" name="status" value="yes">Yes 
+        </label>
+
+            <label> 
+                <input type="radio" name="carer" value="no"> No
+            </label>
             <label for="register-name">Name</label>
             <input id="register-name" name="name" type="text" maxlength="100" placeholder="First Last" required>
 
@@ -35,6 +42,7 @@
             <button type="submit">Create Account</button>
             <p id="register-message" class="form-message" aria-live="polite"></p>
         </form>
+        
         <p>Already have an account? <a href="login.html">Login here</a>.</p>
     </section>
 </main>
