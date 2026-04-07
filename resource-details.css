@@ -4,6 +4,7 @@ details {
     border-radius: 4px;
     padding: 16px;
     margin-bottom: 10px;
+    font-family: Itimo, Arial, sans-serif;
 }
 
 summary {
@@ -11,7 +12,8 @@ cursor: pointer;
 background-color:lightgrey ;
 transition: all 0.2s ease-in-out;
 padding: 16px;
-border: 1px solid lightgray
+border: 1px solid lightgray;
+font-family: Itimo, Arial, sans-serif;
 }
 
 summary:hover {
