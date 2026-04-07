@@ -2,24 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <link rel="stylesheet" href="support-form.css">
     <title>Support form</title> 
 </head>
-<body>
 
+<body>
+<style>
+    html {scroll-behavior: smooth;}
+    </style>
  <header>
     <h1>Support form</h1>
  </header>   
-
+ 
 <main>
     <section>
         <h2>Browse as Guest</h2>
-        <p>You can browse available support and submit a simple request without an account.</p>
+        <p>You can browse available support and submit a simple request.</p>
         <form action="support-confirmation.html">
+        <div class="form-group">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
-
+            <input type="text" id="name" name="name" required>
+</div>
+            <div class="form-group">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+            <input type="email" id="email" name="email" required>
+</div>
 
             <label for="support-type">Type of support needed:</label>
             <select id="support-type" name="support-type" required>
@@ -29,12 +37,14 @@
                 <option value="mental-health">Mental health & wellbeing</option>
                 <option value="caring-responsibilities">Caring responsibilities</option>
                 <option value="external-organisations">External organisations</option>
-            </select><br><br>
+            </select>
 
-            <label for="details">Additional details:</label><br>
-            <textarea id="details" name="details" rows="5" cols="50"></textarea><br><br>
+            <label for="details">Additional details:</label>
+            <textarea id="details" name="details" rows="5" ></textarea>
 
             <input type="submit" value="Submit">
         </form>
     </section>
+
+
 </main>

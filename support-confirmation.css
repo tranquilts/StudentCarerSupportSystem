@@ -1,1 +1,23 @@
+body {
+    background-color: white;
+    font-family: Itimo, Arial, sans-serif;
+}
 
+section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    marign: 80px auto;
+    text-align: center;
+}
+
+section a {
+    display: inline-block;
+    marign-top: 16px;
+    background-color: blue;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}

@@ -1,1 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 24px;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+.dashboard-panels {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.panel {
+    background-color: blue;
+    color:white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+ul {
+padding-left: 24px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
 

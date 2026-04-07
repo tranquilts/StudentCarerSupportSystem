@@ -1,1 +1,65 @@
+section {
+    background-color: lightgrey;
+    padding: 16px;
+border-radius: 4px;
+border: 1px solid darkgray;
+justify-content: center;
+align-items: stretch;
+display: flex;
+text-align: left;
+flex-direction: column;
+ max-width: 500px;
+ margin: 40px auto;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+h2 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input [type="submit"] {
+    background-color: blue;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkblue;
+    transition: background-color 0.2s ease-in-out;  
+}
+
+textarea {
+    min-height: 100px;
+}
+
 
